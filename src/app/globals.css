@@ -13,7 +13,7 @@ body {
 
 @font-face {
   font-family: 'CheltenhamBT';
-  src: url('/public/fonts/Cheltenham\ BT.ttf') format('truetype');
+  src: url('/fonts/Cheltenham BT.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

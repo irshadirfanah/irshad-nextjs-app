@@ -58,8 +58,19 @@ export default function Footer() {
           height={30}
         />
       </a>
-      <div className="absolute right-4 text-sm font-light text-[#F4B400] font-[family-name:var(--font-reem-kufi)]">
-        © 2026 Irshad Irfanah
+      <div className="absolute right-4 text-sm font-light text-[#D4A017] font-[family-name:var(--font-reem-kufi)] text-right">
+        <div>© 2026 Irshad Irfanah</div>
+        <div>
+          Built with{" "}
+          <a
+            href="https://nextjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#F5E9DA] hover:text-[#D4A017] transition-colors"
+          >
+            Next.js
+          </a>
+        </div>
       </div>
     </footer>
   );
