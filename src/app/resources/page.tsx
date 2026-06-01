@@ -20,9 +20,10 @@ const resourceSections: ResourceSection[] = [
         url: "https://cs50.harvard.edu/x/",
       },
       {
-        name: "Placeholder Resource",
-        description: "A short description of this resource.",
-        url: "#",
+        name: "Stanford CS106A Code in Place",
+        description:
+          "An introductory computer science course offered by Stanford University. I was accepted as a student during COVID, and it was a fantastic experience that laid a strong foundation for my software engineering journey.",
+        url: "https://web.stanford.edu/class/cs106a/",
       },
     ],
   },
@@ -110,7 +111,10 @@ export default function ResourcesPage() {
             </h2>
             <div className="flex flex-col gap-4">
               {section.resources.map((resource, i) => (
-                <div key={`${resource.name}-${i}`} className="flex flex-col gap-1">
+                <div
+                  key={`${resource.name}-${i}`}
+                  className="flex flex-col gap-1"
+                >
                   <a
                     href={resource.url}
                     target="_blank"
