@@ -33,11 +33,16 @@ export default function Home() {
               Experience
             </h2>
             <ul className="list-disc list-inside space-y-2 text-left text-xl">
+              <li>2026 to Present - Fellowship at Royal Society of Arts</li>
               <li>
-                2025 to Present - Started MSc in Science, Engineering,
-                Technology, and Public Policy at University College London
+                2025 to Present - MSc in Science, Engineering, Technology, and
+                Public Policy at University College London
               </li>
               <li>2023 to Present - Software Engineer at The Economist</li>
+              <li>
+                2023 - Awarded COVID-19 Resilience Medal by the Prime Minister’s
+                Office, Singapore
+              </li>
               <li>2022 - IT Operations Analyst at The Economist</li>
               <li>2021 - Junior Paramedic & NHS 111 Health Advisor</li>
               <li>2021 - Graduated from Queen Mary University of London</li>

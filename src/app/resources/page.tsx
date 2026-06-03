@@ -15,14 +15,13 @@ const resourceSections: ResourceSection[] = [
     resources: [
       {
         name: "Harvard CS50x",
-        description:
-          "Harvard's introduction to computer science and the art of programming.",
+        description: "Harvard's introduction to computer science.",
         url: "https://cs50.harvard.edu/x/",
       },
       {
         name: "Stanford CS106A Code in Place",
         description:
-          "An introductory computer science course offered by Stanford University. I was accepted as a student during COVID, and it was a fantastic experience that laid a strong foundation for my software engineering journey.",
+          "An introductory computer science course offered by Stanford University. I was accepted as a student on the Code in Place programme during COVID, and it was a fantastic experience that furthered my understanding of fundamental concepts. Do keep an eye out for future announcements about the next cohort of Code in Place.",
         url: "https://web.stanford.edu/class/cs106a/",
       },
     ],
@@ -31,15 +30,16 @@ const resourceSections: ResourceSection[] = [
     title: "Web Development",
     resources: [
       {
-        name: "freeCodeCamp JavaScript Course",
+        name: "JavaScript - freeCodeCamp",
         description:
           "A comprehensive JavaScript course for beginners from freeCodeCamp.",
         url: "https://www.freecodecamp.org/news/full-javascript-course-for-beginners/",
       },
       {
-        name: "Placeholder Resource",
-        description: "A short description of this resource.",
-        url: "#",
+        name: "TypeScript - freeCodeCamp",
+        description:
+          "A comprehensive TypeScript course for beginners from freeCodeCamp.",
+        url: "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/",
       },
     ],
   },
@@ -53,39 +53,42 @@ const resourceSections: ResourceSection[] = [
         url: "https://exercism.org",
       },
       {
-        name: "Placeholder Resource",
-        description: "A short description of this resource.",
-        url: "#",
+        name: "LeetCode",
+        description:
+          "A platform for practicing coding problems and preparing for technical interviews.",
+        url: "https://leetcode.com",
       },
     ],
   },
+  // {
+  //   title: "Books",
+  //   resources: [
+  //     {
+  //       name: "Placeholder Book",
+  //       description: "A short description of this book.",
+  //       url: "#",
+  //     },
+  //     {
+  //       name: "Placeholder Book",
+  //       description: "A short description of this book.",
+  //       url: "#",
+  //     },
+  //   ],
+  // },
   {
-    title: "Books",
+    title: "AWS Certification",
     resources: [
       {
-        name: "Placeholder Book",
-        description: "A short description of this book.",
-        url: "#",
+        name: "AWS Certified Cloud Practitioner",
+        description:
+          "A foundational certification for understanding AWS cloud concepts.",
+        url: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
       },
       {
-        name: "Placeholder Book",
-        description: "A short description of this book.",
-        url: "#",
-      },
-    ],
-  },
-  {
-    title: "Tools & Utilities",
-    resources: [
-      {
-        name: "Placeholder Tool",
-        description: "A short description of this tool.",
-        url: "#",
-      },
-      {
-        name: "Placeholder Tool",
-        description: "A short description of this tool.",
-        url: "#",
+        name: "AWS Certified Solutions Architect",
+        description:
+          "An advanced certification for designing distributed systems on AWS.",
+        url: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
       },
     ],
   },
@@ -96,7 +99,7 @@ export default function ResourcesPage() {
     <div className="grid items-left justify-items-center min-h-[calc(100vh-theme(spacing.32))] p-8 pt-24 pb-20 gap-16 sm:p-20 sm:pt-32 text-[#E0C4B0] font-[family-name:var(--font-cormorant-garamond)]">
       <div className="flex flex-col gap-[32px] items-center sm:items-start max-w-4xl w-full">
         <h1 className="text-7xl font-bold text-[#F4B400]">Resources</h1>
-        <p className="text-3xl">
+        <p className="text-2xl">
           Here are some resources I found useful when starting out in software
           engineering. I hope you find them useful too!
         </p>
