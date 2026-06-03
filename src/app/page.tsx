@@ -38,11 +38,14 @@ export default function Home() {
                 2025 to Present - MSc in Science, Engineering, Technology, and
                 Public Policy at University College London
               </li>
+              <li>2025 - Awarded TEG Inclusivity Award</li>
+              <li>2024 - Awarded TEG Inclusivity Award</li>
               <li>2023 to Present - Software Engineer at The Economist</li>
               <li>
                 2023 - Awarded COVID-19 Resilience Medal by the Prime Minister’s
                 Office, Singapore
               </li>
+              <li>2023 - Awarded TEG Inclusivity Award</li>
               <li>2022 - IT Operations Analyst at The Economist</li>
               <li>2021 - Junior Paramedic & NHS 111 Health Advisor</li>
               <li>2021 - Graduated from Queen Mary University of London</li>
