@@ -30,9 +30,9 @@ const AboutPage: FC = () => {
           <p>
             At the cusp of adulthood, I packed my bags and moved across the
             world to the United Kingdom to do my Bachelors in Biochemistry at
-            Queen Mary University of London. The plan was to transform my bench
-            skills to the bedside, and care for those suffering from the very
-            diseases I had based my research on.
+            Queen Mary University of London. The plan was to eventually
+            transform my bench skills to the bedside, and care for those
+            suffering from the very diseases I had based my research on.
           </p>
           <p>
             My final year coincided with the onset of the COVID-19 pandemic; I

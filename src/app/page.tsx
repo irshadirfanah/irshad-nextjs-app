@@ -19,9 +19,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <p className="text-3xl">
               I&apos;m a London-based Software Engineer at The Economist, with
-              roots in the biochemical sciences and healthcare, and now public
-              policy. I enjoy building impactful things, and seek to shape
-              technology policy.
+              roots in the biochemical sciences and public policy. I care deeply
+              about bridging the gap between technical complexity and social
+              responsibility, and seek to craft technology that is inclusive,
+              ethical, and impactful. When I&apos;m not at my desk, you can find
+              me with a film camera, a book from somewhere new, or on a Pilates
+              mat.
             </p>
           </div>
         </section>

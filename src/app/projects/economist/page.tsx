@@ -21,6 +21,32 @@ const features: Feature[] = [
     url: "https://www.economist.com/the-world-in-brief",
     image: "/images/twib.png",
   },
+  {
+    title: "Rich Topic Pages",
+    description: "Detailed pages covering various topics in depth.",
+    url: "https://www.economist.com/topics/britain",
+    image: "/images/rich-topic-page.png",
+  },
+  {
+    title: "For You",
+    description:
+      "Personalized content recommendations based on your interests.",
+    url: "https://www.economist.com/for-you",
+    image: "/images/for-you.png",
+  },
+  {
+    title: "Podcasts",
+    description:
+      "A variety of podcasts covering global news, culture, and more.",
+    url: "https://www.economist.com/audio/podcasts",
+    image: "/images/podcast.png",
+  },
+  {
+    title: "Videos",
+    description: "A variety of videos covering global news, culture, and more.",
+    url: "https://www.economist.com/video",
+    image: "/images/video.png",
+  },
 ];
 
 export default function EconomistPage() {
