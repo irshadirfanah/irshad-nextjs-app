@@ -82,7 +82,10 @@ const AboutPage: FC = () => {
           <p>
             Today, I build features for The Economist’s digital publication -
             some of which are featured{" "}
-            <a href="/projects" className="text-[#F4B400] hover:underline">
+            <a
+              href="/projects/economist"
+              className="text-[#F4B400] hover:underline"
+            >
               here
             </a>
             . I am also pursuing an MSc in Technology and Public Policy at UCL,
