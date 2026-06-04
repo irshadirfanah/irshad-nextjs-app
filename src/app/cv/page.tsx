@@ -6,7 +6,18 @@ const CVPage: FC = () => {
       <div className="flex flex-col gap-[32px] items-center sm:items-start max-w-4xl">
         <h1 className="text-7xl font-bold text-[#F4B400]">CV</h1>
         <div className="text-2xl">
-          <p className="text-3xl">Here&apos;s my CV. It is so cool.</p>
+          <p className="text-3xl">
+            You can see my CV{" "}
+            <a
+              href="/cv/Irshad_Irfanah_Shaik_Fareed_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#F4B400] hover:underline"
+            >
+              here
+            </a>
+            .
+          </p>
         </div>
       </div>
     </div>

@@ -32,6 +32,14 @@ const reemKufi = Reem_Kufi({
 export const metadata: Metadata = {
   title: "You've Reached Irshad",
   description: "&copy 2025 Irshad",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -41,6 +49,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" dir="auto">
+      <head>
+        <meta name="robots" content="noindex, nofollow" />
+      </head>
       <body
         className={`${amiri.variable} ${cormorantGaramond.variable} ${hind.variable} ${reemKufi.variable} antialiased min-h-screen flex flex-col`}
       >
@@ -57,9 +68,7 @@ export default function RootLayout({
           `}
         </Script>
         <Header />
-        <main className="flex-grow">
-          {children}
-        </main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

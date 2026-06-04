@@ -19,9 +19,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <p className="text-3xl">
               I&apos;m a London-based Software Engineer at The Economist, with
-              roots in the biochemical sciences and healthcare, and now public
-              policy. I enjoy building impactful things, and seek to shape
-              technology policy.
+              roots in the biochemical sciences and public policy. I care deeply
+              about bridging the gap between technical complexity and social
+              responsibility, and seek to craft technology that is inclusive,
+              ethical, and impactful. When I&apos;m not at my desk, you can find
+              me with a film camera, a book from somewhere new, or on a Pilates
+              mat.
             </p>
           </div>
         </section>
@@ -33,11 +36,19 @@ export default function Home() {
               Experience
             </h2>
             <ul className="list-disc list-inside space-y-2 text-left text-xl">
+              <li>2026 to Present - Fellowship at Royal Society of Arts</li>
               <li>
-                2025 to Present - Started MSc in Science, Engineering,
-                Technology, and Public Policy at University College London
+                2025 to Present - MSc in Science, Engineering, Technology, and
+                Public Policy at University College London
               </li>
+              <li>2025 - Awarded TEG Inclusivity Award</li>
+              <li>2024 - Awarded TEG Inclusivity Award</li>
               <li>2023 to Present - Software Engineer at The Economist</li>
+              <li>
+                2023 - Awarded COVID-19 Resilience Medal by the Prime Minister’s
+                Office, Singapore
+              </li>
+              <li>2023 - Awarded TEG Inclusivity Award</li>
               <li>2022 - IT Operations Analyst at The Economist</li>
               <li>2021 - Junior Paramedic & NHS 111 Health Advisor</li>
               <li>2021 - Graduated from Queen Mary University of London</li>
